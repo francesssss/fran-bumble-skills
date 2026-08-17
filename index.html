@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ownership Skills Map</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="eyebrow">Areas I Own</div>
+  <h1 id="page-title"></h1>
+  <p class="subtitle" id="page-subtitle"></p>
+  <p class="intro" id="page-intro"></p>
+</header>
+
+<div class="progress-wrap">
+  <div class="progress-label">
+    <span id="progress-text">0 of 0 topics</span>
+    <span id="progress-pct">0%</span>
+  </div>
+  <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+</div>
+
+<div class="legend">
+  <span class="legend-item"><span class="dot not-started"></span> Not started</span>
+  <span class="legend-item"><span class="dot learning"></span> Building</span>
+  <span class="legend-item"><span class="dot done"></span> Confident</span>
+</div>
+
+<main class="roadmap" id="roadmap-root"></main>
+
+<footer>Click any skill to see details, mark where you're at, and find resources. Progress is saved in this browser only.</footer>
+
+<div class="overlay" id="overlay"></div>
+<aside class="panel" id="panel">
+  <button class="panel-close" id="panel-close" aria-label="Close">&times;</button>
+  <div class="panel-level" id="panel-level"></div>
+  <h3 id="panel-title"></h3>
+  <p class="desc" id="panel-desc"></p>
+  <div class="status-buttons">
+    <button class="status-btn" data-status="not-started">Not started</button>
+    <button class="status-btn" data-status="learning">Building</button>
+    <button class="status-btn" data-status="done">Confident</button>
+  </div>
+  <div class="resources">
+    <h4>Resources</h4>
+    <ul id="panel-resources"></ul>
+  </div>
+</aside>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
