@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CX / QA Operations Grid</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="eyebrow">Daily Operations</div>
+  <h1 id="page-title"></h1>
+  <p class="subtitle" id="page-subtitle"></p>
+  <p class="intro" id="page-intro"></p>
+</header>
+
+<div class="quicklinks" id="quicklinks"></div>
+
+<div class="toolbar">
+  <div class="day-progress" id="day-progress"></div>
+  <button class="reset-btn" id="reset-btn">Reset for new day</button>
+</div>
+
+<main class="grid" id="grid-root"></main>
+
+<footer>Tick tasks as you go. Progress is saved in this browser only; hit reset to clear for a new day.</footer>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
