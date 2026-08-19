@@ -5,6 +5,4 @@ under each one — with open-access resources to learn from. Same format as the
 AI Strategist Roadmap: click a skill to see a description, mark where you're at
 (Not started / Building / Confident), and open resource links.
 
-## Run it
-
-Open `index.html` in a browser.
+Read me : https://francesssss.github.io/fran-bumble-skills/
